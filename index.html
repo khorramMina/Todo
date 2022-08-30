@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>NewTodo</title>
+</head>
+<body>
+    <h1 class="main-h1">TODO</h1>
+    <div style="background-color: cadetblue; border-top-left-radius: 5px; border-bottom-left-radius: 5px; display: flex; position: fixed; top: 10px; right: 0; transition: all 0.5s ease; width: 25%; height: 40px;" id="alert">
+      <p style="color:#ffffff; font-size: 18px; 
+      padding-left: 8px; 
+      position: relative; 
+      top:-8px;">form not valid</p>
+      <button style="background-color: rgb(214, 214, 214) ;
+      font-size: 20px;
+      width: 27px;
+      height: 27px;
+      border-radius: 5px;
+      border-width: 1px;
+      margin-top: 6px;
+      margin-left: 5px;" id="close-Alert">X</button>
+  </div>
+    <form class="form-list">
+    <input id="title" type="text" placeholder="title">
+    <textarea id="description" placeholder="do something" rows="10"></textarea>
+    <button class="submit-button" id="submit">submit</button>
+    </form>
+    <hr>
+    <ul style="color:#ffffff; padding-top: 10px; font-size: 18px;" id="main">
+        <li>Todos List:<h3></h3><p></p></li>
+    </ul>
+    <script src="./index.js"></script>
+    
+</body>
+</html>

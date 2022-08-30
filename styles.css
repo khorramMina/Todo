@@ -1,0 +1,76 @@
+.list-item{
+    font-family: "roboto";
+}
+
+body{
+    background-image: linear-gradient(45deg, rgba(0, 0, 0 , .4), rgba(0, 0, 0, .4)),
+     url('./programming-02.jpg');
+    background-size: 100%;
+    background-position: center;
+    width: 1325px;
+    height: 595px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+hr{
+    width: 600px;
+    position: relative;
+    left: -360px;
+    bottom: -8px;
+}
+
+.main-h1{
+    color: rgb(227, 227, 227);
+    margin-left: 7px;
+}
+
+.form-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 10px;
+
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: darkslategrey;
+}
+
+textarea{
+    height: 80px;
+    width: 302px;
+    border-radius: 5px;
+    background-color: darkslategrey;
+}
+
+.submit-button{
+    height: 20px;
+    width: 308px;
+    border-radius: 5px;
+    background-color: rgb(35, 65, 65);
+    color: aliceblue;
+    border-color: rgb(233, 234, 235);
+    border-width: 1px;
+}
+
+.desc-title{
+    color: rgb(233, 236, 237);
+}
+
+.title-input {
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
+    outline: none;
+    color: white;
+}
+
+p{
+    color: cadetblue;
+}
